@@ -14,6 +14,6 @@ Instructions:
 	git clone https://github.com/DevMuppetds/SteamBot-Linux.git
 
 - Run the following commands in terminal using root privelages for your system (sudo or su).
-	cd SteamBot-Linux
-	chmod 775 <distro>.sh
-	./<distro>.sh
+	*cd SteamBot-Linux
+	*chmod 775 <distro>.sh
+	*./<distro>.sh
