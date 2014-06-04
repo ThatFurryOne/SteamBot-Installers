@@ -38,7 +38,7 @@ echo SteamKit2 has been installed.
 cd ..
 
 while true; do
-    read -p "Do you want to build the ExampleBot?" yn
+    read -p "Do you want to build the ExampleBot? (y/n)" yn
     case $yn in
         [Yy]* ) mdtool build SteamBot.sln; echo "Built SteamTrade"; mdtool build --project:ExampleBot SteamBot.sln; echo ExampleBot has been built.; break;;
         [Nn]* ) echo "To build it yourself use the commands 'mdtool build SteamBot.sln' then 'mdtool build --project:ExampleBot SteamBot.sln'"; break;;
@@ -48,5 +48,6 @@ done
 
 cd Bin/Release/
 
+echo You can use monodevelop to change the Bot code and it\'s setup. You can also compile it.
 echo See https://github.com/Jessecar96/SteamBot/wiki/Configuration-Guide for configuration .
-echo Run mono SteamBot.exe to run the bot.
+echo Run cd Steambot/Bin/Release then mono SteamBot.exe to run the bot.
