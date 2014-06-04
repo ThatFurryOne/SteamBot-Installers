@@ -49,5 +49,5 @@ done
 cd Bin/Release/
 
 echo You can use monodevelop to change the Bot code and it\'s setup. You can also compile it.
-echo See https://github.com/Jessecar96/SteamBot/wiki/Configuration-Guide for configuration .
+echo See https://github.com/Jessecar96/SteamBot/wiki/Configuration-Guide for configuration.
 echo Run cd Steambot/Bin/Release then mono SteamBot.exe to run the bot.
