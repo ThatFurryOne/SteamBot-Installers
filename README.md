@@ -1,6 +1,6 @@
 #SteamBot Linux Install Scripts:
 
-These scripts install the [SteamBot project](https://github.com/JesseCar96/SteamBot/ and can build the ExampleBot if you wish.
+These scripts install the [SteamBot project](https://github.com/JesseCar96/SteamBot/) and can build the ExampleBot if you wish.
 
 They install mono, monodevelop, git, the required dependencies for SteamBot and the SteamBot project itself.
 
